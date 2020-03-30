@@ -29,13 +29,12 @@ character = Character()
 character.speak()
 
 # define a new character
-class DonaldJTrump(Character):
+class Bender(Character):
     def __init__(self):
-        super().__init__()
-        self.favorite_phrase = 'I know more than anyone about anything'
+        super().__init__(favorite_phrase='Bite my shiny metal ass!')
 
-djt = DonaldJTrump()
-djt.speak()  # I know more than anyone about anything
+bender = Bender()
+bender.speak()  # Bite my shiny metal ass!
 ```
 
 ---
