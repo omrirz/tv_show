@@ -9,6 +9,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+## [0.1.0]
+
+### Added
+
 - git ignore dist and build dirs.
 - test Character sublclassing.
 
@@ -16,12 +28,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - README character example changed to bender.
 - Character class now receives favorite_phrase as constructor param.
-
-### Deprecated
-
-### Removed
-
-### Fixed
 
 ## [0.0.1] - 2020-03-29
 
