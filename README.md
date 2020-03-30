@@ -26,7 +26,8 @@ pip install git+https://github.com/omrirz/tv_show.git'
 from tv_show import Character
 
 character = Character()
-character.speak()
+character.speak()  # 'Character: '
+character.joke()  # Some random joke
 
 # define a new character
 class Bender(Character):
@@ -34,7 +35,8 @@ class Bender(Character):
         super().__init__(favorite_phrase='Bite my shiny metal ass!')
 
 bender = Bender()
-bender.speak()  # Bite my shiny metal ass!
+bender.speak()  # 'Bender: Bite my shiny metal ass!'
+bender.joke()  # Some random joke
 ```
 
 ---
