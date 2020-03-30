@@ -15,6 +15,12 @@ def test_character_print(capsys):
     assert captured.out == 'Character: \n'
 
 
+def test_character_joke():
+    from tv_show import Character
+    character = Character()
+    character.joke()
+
+
 def test_inherit_character(capsys):
     from tv_show import Character
 

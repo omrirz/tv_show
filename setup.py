@@ -27,4 +27,7 @@ setuptools.setup(
         "'Operating System :: POSIX",
     ],
     python_requires='>=3.6',
+    install_requires=[
+        'pyjokes',
+    ],
 )
