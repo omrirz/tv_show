@@ -1,4 +1,7 @@
 .idea
 .pytest_cache
 venv
+build
+dist
+tv_show.egg-info
 *.py[cod]
