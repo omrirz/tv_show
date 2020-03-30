@@ -1,6 +1,6 @@
 # TV Show
 
-Utilities for TV show
+An Example python package
 
 ## Installation
 
@@ -15,7 +15,7 @@ pip install git+ssh://ilherldcnjhzl9r:29418/tv_show
 pip install tv_show-0.0.1-py3.none-any.whl
 
 # from github
-pip install git+https://github.com/netflix/tv_show.git'
+pip install git+https://github.com/omrirz/tv_show.git'
 ```
 
 ---
